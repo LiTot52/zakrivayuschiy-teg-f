@@ -1,1 +1,38 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root{
+
+    /*! Шрифты */
+    --main-font-family: 'Inter';
+    --accent-font-family:'PressStart2P';
+
+    /*! Текст */
+    --main-color:#000000;
+
+    /*! Лайк */
+    --like-color:#000000;
+    --like-accent-color:#FF0000;
+    
+    /*! Размеры */
+    --content-width:clamp(375px, calc(260.5634px + 30.5164vw), 700px);
+    --logo-font-size:clamp(49px, calc(43.3662px + 1.5023vw), 65px);
+    --subtitle-font-size:clamp(14px, calc(10.8310px + 0.8451vw), 23px);
+    --main-font-size:18px;
+    
+
+    /*! Цвета и Градиент */
+    --gradient-color-start: #E7E7E7;
+    --gradient-color-end: #1A1A1A;
+    --bg-image:
+    repeating-linear-gradient(to right,#d3d3d3, transparent 2px, transparent 4px), 
+    repeating-linear-gradient(to bottom,#d3d3d3, transparent 2px, transparent 4px),  
+    linear-gradient(var(--gradient-color-start) 0.01%, var(--gradient-color-end));
+    --border-color:#000000;
+    --main-bg-color:#FFFFFF;
+    --label-stroke-color: rgba(255, 255, 255, 0.5);
+
+    /*! Эффекты */
+    --main-color-hover:#FFFFFF;
+    --main-bg-color-hover:#000000;
+    --focus-color:#000000;
+}
