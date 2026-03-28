@@ -1,1 +1,1 @@
-https://github.com/LiTot52/zakrivayuschiy-teg-ad
+https://github.com/LiTot52/zakrivayuschiy-teg-f.git
